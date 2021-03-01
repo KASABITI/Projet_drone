@@ -16,10 +16,10 @@
   <nav>
 
     <ul>
-      <li><a href="#">Nos produits</a></li>
+      <li><a href="#ourProducts">Nos produits</a></li>
       <li><a href="#">Nos services</a></li>
       <li><a href="#">A propos de nous</a></li>
-      <li><a href="#">Nous contacter</a></li>
+      <li><a href="#contact">Nous contacter</a></li>
     </ul>
   </nav>
 </header>
@@ -71,7 +71,7 @@
   	</div>
     </div>
 
-  <div class="card">
+  <div id="ourProducts"class="card">
   <div class="pic">
     <img src="images/drone1.jpg " alt="drone 1 ">
   </div>
@@ -120,13 +120,13 @@
         }
         slides[slideIndex-1].style.display = "block";
         dots[slideIndex-1].className += " active";
-        setTimeout(showSlides, 3000); // Change image every 2 seconds
+        setTimeout(showSlides, 3000); // Change image every 3 seconds
       }
       </script>
     </div>
     <h3 class="text-form">Nous contacter</h3>
 
-<div class="container-form">
+<div id="contact" class="container-form">
 <form action="">
 <label for="name">Nom</label>
 <input type="text" id="name" name="name" placeholder="Nom..">
